@@ -201,10 +201,10 @@ background-color: #F3F9EC;
 #page2 p{
     font-family: matter;
     color: #3A3C35;
-    /* padding:0vw 3vw; */
+    /* background-color: crimson; */
     padding-left: 4vw;
-    width: 95%;
-    font-size: 1.8vw;
+    width:90%;
+    font-size: 2vw;
 }
 #page2 img{
     /* margin-right: 5vw; */
@@ -288,6 +288,30 @@ background-color: #F3F9EC;
     display: flex;
     flex-direction: column;
 }
+#page4 #mid{
+    /* background-color: pink; */
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+#page4 #mid h1{
+    font-size: 3vw;
+
+    /* padding:1vw 4vw; */
+    color:#131412;
+}
+#page4 #mid p{
+    font-family: matter;
+    color: #000000;
+    margin-top: 2vw;
+    font-size: 1.8vw;
+}
+#page4 #mid p span{
+    font-size: 2vw;
+    color:#A37C04;
+}
 #page4 #right{
     display: flex;
     flex-direction: column;
@@ -299,7 +323,61 @@ background-color: #F3F9EC;
     height: 20vh;
 }
 #page5{
+    height: 80vh;
+    width: 100vw;
+    /* background-color: crimson; */
+}
+#page5 #top{
+    display: flex;
+    flex-direction: column;
+}
+#page5 #top h1{
+    padding: 0vw 3vw;
+    font-size: 3vw;
+}
+#page5 #top p{
+    padding: 0vw 3vw;
+    font-family: matter;
+    color: #000000;
+    margin-top: 2vw;
+    font-size: 1.8vw;
+}
+#page5 #t1{
+    display: flex;
+    padding: 2vw 3vw;
+    gap: 2vw;
+}
+#page5 #t1:nth-last-child(1){
+    padding: 0vw 3vw;
+}
+#page5 #t1 .box{
+    background-color: #CFDAC4;
+    border-radius: 1.5vw;
+    height: 15vw;
+    width: 25vw;
+    padding: 2vw 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    transition: all 0.5s ease; /* Adding duration */
+}
+#page5 #t1 .box:hover{
+    height: 15vw;
+    width: 35vw;
+    color: #fff;
+    background-color:#323430;
+}
+#page5 #t1 .box h1{
+    align-items: center;
+    font-size: 2vw;
+}
+#page5 #t1 .box p{
+    /* margin-top: 2vw; */
+    font-size: 1.1vw;
+}
+#page6{
     height: 100vh;
     width: 100vw;
-    background-color: crimson;
+    background-color:crimson;
 }
