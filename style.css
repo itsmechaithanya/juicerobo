@@ -1,3 +1,11 @@
+@font-face {
+    font-family:Gilroy-SemiBold ;
+    src: url(./Gilroy-SemiBold.ttf);
+}
+@font-face {
+    font-family:matter-light;
+    src: url(./matter-light.ttf);
+}
 *{ 
 Margin:0;
 Padding:0;
