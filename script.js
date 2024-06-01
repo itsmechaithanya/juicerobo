@@ -40,6 +40,7 @@ function swiper(){
 }
 swiper();
 
+
 // Shery.mouseFollower();
 
 Shery.makeMagnet(".magnet");
