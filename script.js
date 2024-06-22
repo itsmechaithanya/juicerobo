@@ -2,7 +2,8 @@ function loco(){
     gsap.registerPlugin(ScrollTrigger);
 const locoScroll = new LocomotiveScroll({
   el: document.querySelector(".main"),
-  smooth: true
+  smooth: true,
+  // smoothMobile: true
 });
 locoScroll.on("scroll", ScrollTrigger.update);
 ScrollTrigger.scrollerProxy(".main", {

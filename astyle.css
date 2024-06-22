@@ -110,7 +110,7 @@ a #ball h3{
 }
 #page1 #text h1{
     font-size: 6vw;
-    text-shadow: 5px 5px 10px #696a69;
+    text-shadow: 5px 5px 10px #696a6977;
 }
 #page2{
     min-height: 20vh;
@@ -170,12 +170,6 @@ a #ball h3{
     padding-top: 3vw;
     font-size: 3vw;
 }
-/* #page3 img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: absolute;
-} */
 #page3 #text h1 span{
     color: #1EAD4E;
 }
@@ -286,33 +280,6 @@ a #ball h3{
 .swiper-button-prev {
   color: #000000; /* Change to your desired color */
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #ff{
     height: 30vh;
     width: 100vw;
@@ -384,4 +351,354 @@ a #ball h3{
 #ll h4{
     font-size: 1.5vw;
     font-family: matter;
+}
+@media (max-width: 600px) {
+    *{ 
+        Margin:0;
+        Padding:0;
+        Box-sizing: border-box;
+        font-family: Gilroy-SemiBold;
+        }
+        html,body{
+        Width:100%;
+        Height:100%;
+        overflow-x: hidden;
+        background-color: #F3F9EC;
+        }
+    #nav{
+        height: 15vw;
+        width: 95vw;
+        padding: 1vw 4vw;
+        position: absolute;
+        left: 2.5vw;
+        z-index: 3;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #44622034;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-radius: 10vw;
+        margin:1vh 0vw;
+    }
+    #nav img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* height: 5vh; */
+        width: 10vh;
+    }
+    #nav2{
+        display: flex;
+        gap: 3vw;
+    }
+    #nav2 a{
+        text-decoration: none;
+        color: #000000;
+    }
+    #nav2 a:hover{
+        color: #257F2A;
+    }
+    #nav2 a h3{
+        font-size: 1.4vh;
+    }
+    #last{
+        font-size: 1.2vh;
+        padding: .8vh 2vh;
+        padding-top: .9vh;
+        border-radius: 10vh;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        background-color: #000000;
+        text-decoration: none;
+        color:#CEE3B7;
+    }
+    a #ball{
+        height: 10vh;
+        width: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: capitalize;
+        text-decoration: none;
+        color: #000000;
+        position: fixed;
+        z-index: 5;
+        right: 1vh;
+        bottom:2vh;
+        background-color:#f6ece3dd;
+        backdrop-filter: blur(2px);
+        -webkit-backdrop-filter: blur(2px);
+        border-radius: 5vh;
+        box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    }
+    a #ball h3{
+        font-size: 1.15vh;
+    }
+    #page1{
+        height: 60vh;
+        width: 100vw;
+        position: relative;
+        /* border-radius: 3vw;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0; */
+        overflow: hidden;
+    }
+    #page1 video{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    #page1 #text{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color:#e4f2d6a9;
+        backdrop-filter: blur(5px);
+    }
+    #page1 #text h1{
+        font-size: 6vh;
+        text-shadow: 5px 5px 10px #696a6977;
+    }
+    #page2{
+        min-height: 20vh;
+        width: 100vw;
+        position: relative;
+    }
+    #page2 .magnet{
+        position: absolute;
+        top: -6%;
+        right: 2%;
+        height: 13vh;
+    }
+    #page2 h1{
+        padding-left: 3vw;
+        padding-top: 2vh;
+        font-size: 3vh;
+    }
+    #page2 h1 span{
+        color: #1EAD4E;
+    }
+    #page2 p{
+        padding: 1vh 3vw;
+        font-family: matter;
+        font-size: 2vh;
+    }
+    #page2 .sec{
+       width: 50vh;
+    }
+    #page2 #sec{
+        margin-top: 50vh;
+        padding-left: 3vw;
+        font-size: 2vh;
+        font-family: matter;
+        width: 100%;
+    }
+    #page2 h2{
+        padding: 2vw 3vw;
+        font-size: 2vh;
+        font-family: matter;
+        font-weight: 900;
+    }
+    #page3{
+        height: 35vh;
+        width: 100vw;
+        position: relative;
+    }
+    #page3 #text{
+        width: 100%;
+        height: 100%;
+    }
+    #page3 #text h1{
+        padding: 0vw 3vw;
+        padding-top: 3vh;
+        font-size: 3vh;
+    }
+    #page3 #text h1 span{
+        color: #1EAD4E;
+    }
+    #page3 #text p{
+        padding: 1vw 3vw;
+        font-size: 2vh;
+        font-family: matter;
+    }
+    #page4{
+        height: 40vh;
+        width: 100vw; 
+        margin-bottom: 2vw;  
+    }
+    #page4 h1{
+        padding: 0vw 3vw;
+        padding-top: 3vw;
+        font-size: 3vh;
+    }
+    #page4 h1 span{
+        color: #1EAD4E;
+    }
+    #page4 p{
+        padding: 1vw 3vw;
+        font-size: 2vh;
+        font-family: matter;
+    }
+    #page6{
+        height: 50vh;
+        width: 100vw;
+    }
+    .swiper {
+        width: 100%;
+        height: 100%;
+        background: #000;
+      }
+    
+      .swiper-slide {
+        font-size: 18px;
+        color: #000000;
+        background-color:#e4f2d6a9;
+        backdrop-filter: blur(10px);
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 40px 60px;
+      }
+    
+      .parallax-bg {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 130%;
+        height: 100%;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center;
+      }
+    
+      .swiper-slide .title {
+        font-size: 3vh;
+      }
+    
+      .swiper-slide .subtitle {
+        font-size: 1.3vh;
+      }
+    
+      .swiper-slide .text {
+        font-size:2vh;
+        max-width: 95%;
+        line-height: 1.3;
+      }
+      .swiper-slide .text p{
+        font-family: matter;
+      }
+      .swiper-button-next,
+    .swiper-button-prev {
+      color:transparent;
+    }
+    #page5{
+        height: 59vh;
+        width: 100vw;   
+        position: relative;
+    }
+    #page5 img{
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: 10% 25%;
+    }
+    #page5 #text{
+        height: 100%;
+        width: 100%;
+        background-color: #e1f1d0a0;
+        backdrop-filter: blur(1px);
+        position: absolute;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #page5 #text h1{
+        font-size: 6vh;
+        line-height: 6vh;
+        padding:0vw 1.5vw;
+        padding-top: 1.5vw;
+    }
+    #page5 #text h3{
+        font-size: 1vh;
+        padding: 0vw 1.5vw;
+    }
+    #ff{
+        height: 20vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        margin-top: 2vw;
+        /* background-color: crimson; */
+    }
+    #ff #f1{
+        height: 100%;
+        width: 30%;
+        padding: 1vw;
+        padding-left: 3vw;
+        /* background-color: crimson; */
+    }
+    #ff #f1 img{
+        width: 60%;
+    }
+    #ff #f2{
+        height: 100%;
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+        padding: 1vw;
+        justify-content: space-between;
+    }
+    #ff #f2 a{
+        color: #000000;
+        text-decoration: none;
+    }
+    #ff #f2 a:hover{
+        color: #257F2A;
+    }
+    #ff #f2 a h3{
+        font-size: 1.2vh;
+        margin-top: .8vw;
+    }
+    #ff #f2 h1{
+        font-size: 2vh;
+    }
+    #ff #f3{
+        height: 100%;
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+        padding: 1vw;
+        justify-content: space-between;
+        /* background-color: rgb(161, 26, 26); */
+    }
+    #ff #f3 p{
+        width: 70%;
+        font-size: 1vh;
+        padding-bottom: 2vw;
+    }
+    #ff #f3 h1{
+        font-size: 2vh;
+    }
+    #ll{
+        margin-top: 1vw;
+        height: 10vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #E1F1D0;
+        /* background-color: #257F2A; */
+    }
+    #ll h4{
+        font-size: 1.5vh;
+        font-family: matter;
+    }
 }
