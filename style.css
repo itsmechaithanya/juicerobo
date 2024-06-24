@@ -831,7 +831,7 @@ a #ball h3{
         object-fit: cover;
     }
     #con{
-        height: 90%;
+        height: 85%;
         width: 90%;
         position: absolute;
         z-index: 2;
@@ -839,7 +839,7 @@ a #ball h3{
         backdrop-filter: blur(3px);
         -webkit-backdrop-filter: blur(3px);
         border-radius: 2vh;
-        margin-top: 7vh;
+        margin-top: 8vh;
         display: flex;
         flex-direction: column;
         box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
