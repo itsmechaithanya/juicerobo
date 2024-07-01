@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @font-face {
     font-family:Gilroy-SemiBold ;
     src: url(./Gilroy-SemiBold.woff2);
@@ -8,9 +9,10 @@
 }
 *{ 
 Margin:0;
-Padding:0;
+Padding:0; 
 Box-sizing: border-box;
-font-family: Gilroy-SemiBold;
+/* font-family: "Poppins", sans-serif; */
+font-family: Gilroy-SemiBold; 
 }
 html,body{
 Width:100%;
@@ -729,7 +731,7 @@ a #ball h3{
     border-radius: 5vw;
 }
 #page12 img{
-    height: 90vh;
+    height: 100vh;
 }
 
 #pagee{
@@ -1200,7 +1202,7 @@ a #ball h3{
         width: 13vw;
     }
     #page5{
-        height: 110vh;
+        height: 113vh;
         width: 100vw;
         /* background-color: crimson; */
     }
@@ -1438,7 +1440,7 @@ a #ball h3{
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: .5vw;
+        margin-top: 4vw;
         /* padding: 1vw 1.9vw; */
         background-color: #CFDAC4;
     }
@@ -1450,21 +1452,23 @@ a #ball h3{
         width: 100vw;
         /* background-color: #b7b7b7; */
         display: flex;
+        align-items: center;
+        justify-content: center;
         flex-direction: column;
     }
     #page10 #left{
-        height: inherit;
+        height: 30vh;
         width: 100%;
-        padding:0vw 5vw;
+        padding:0vh 5vw;
+        padding-top: 5vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: start;
-        margin-top: 3vh;
         /* background-color: crimson; */
     }
     #page10 #right{
-        height: inherit;
+        height: 50vh;
         width: 100%;
         display: flex;
         align-items: center;
@@ -1477,34 +1481,34 @@ a #ball h3{
     #page10 p{
         font-size: 1.8vh;
         line-height: 2vh;
-        margin-top: .5vw;
-        width: 95%;
+        margin-top: .5vh;
         font-family: matter;
     }
     #page10 h3{
-        background-color: #CFDAC4;
+        /* background-color: #CFDAC4; */
         padding: 1vh 2vh;
         margin-top: 1.2vh;
         font-size: 1.5vh;
-        border-radius: 5vw;
+        border-radius: 5vh;
     }
     #page10 #right img{
         height:50vh;
-        width: 80%;
-        margin-top: -10vh;
+        width: 100%;
+        margin-top: -20vw;
         object-fit: cover;
+        
     }  
     #page11{
         height: 60vh;
         width: 100vw;
-        display: flex;
-        margin-top: 4vh;
-        flex-direction: column-reverse;
         /* background-color: #257F2A; */
-
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
     }
     #page11 #left{
-        height: inherit;
+        height: 30vh;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -1513,7 +1517,7 @@ a #ball h3{
         /* background-color: crimson; */
     }
     #page11 #right{
-        height: inherit;
+        height: 20vh;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -1524,8 +1528,7 @@ a #ball h3{
         /* background-color: rgb(197, 194, 255); */
     }
     #page11 #left img{
-        height: 40vh;
-        margin-top: -10vh;
+        height: 50vh;
     }
     #page11 h2{
         font-size: 3vh;
@@ -1547,27 +1550,26 @@ a #ball h3{
         height: 60vh;
         width: 100vw;
         display: flex;
+        /* background-color: #000000; */
         flex-direction: column;
-        margin: 4vh 0vh;
     }
     #page12 #left{
-        height: inherit;
+        height:30vh;
         width: 100%;
-        padding-left: 5vw;
+        padding:0vw 5vw;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: start;
-        /* background-color: crimson; */
+        /* background-color: rgb(20, 220, 33); */
     }
     #page12 #right{
-        height: inherit;
-        width:100%;
+        height: 30vh;
+        width: 90%;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         justify-content: center;
-        padding: 0vw 5vw;
         /* background-color: rgb(197, 194, 255); */
     }
     #page12 h2{
@@ -1576,7 +1578,6 @@ a #ball h3{
     #page12 p{
         font-size: 1.8vh;
         line-height: 2vh;
-        width: 90%;
         margin-top: .5vh;
         font-family: matter;
     }
@@ -1584,12 +1585,14 @@ a #ball h3{
         background-color: #CFDAC4;
         padding: 1vh 2vh;
         margin-top: 1.2vh;
-        font-size: 1.5vh;
+        font-size: 1.3vh;
         border-radius: 5vh;
     }
     #page12 img{
         height: 50vh;
-        margin-top: -3vh;
+        /* background-color: #257F2A; */
+        margin-left: -10vh;
+        margin-top: -5vh;
     }
 
 
