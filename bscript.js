@@ -19,22 +19,3 @@ ScrollTrigger.refresh();
 
 }
 loco();
-
-var swiper = new Swiper(".mySwiper", {
-  speed: 600,
-  parallax: true,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-  mousewheel: true,
-  keyboard: {
-    enabled: true,
-  },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-});
-
-Shery.makeMagnet(".magnet");
