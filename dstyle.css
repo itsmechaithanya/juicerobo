@@ -198,21 +198,21 @@ a #ball h3{
   justify-content: center;
 }
 #page8 #elem1 video{
-  height: 80%;
+  height: 110%;
   width: 100%;
   margin-left: 5vw;
   object-fit: cover;
   scale:1.2;
 }
 #page8 #elem2 video{
-  height: 80%;
+  height: 110%;
   width: 100%;
   /* margin-right: 2.7vw; */
   object-fit: cover;
   scale:1.2;
 }
 #page8 #elem3 video{
-  height: 80%;
+  height: 110%;
   width: 100%;
   margin-left: 2.7vw;
   object-fit: cover;
