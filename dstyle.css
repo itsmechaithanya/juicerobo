@@ -626,7 +626,7 @@ color: #000000; /* Change to your desired color */
     /* background-color: rgb(227, 227, 227); */
     justify-content: space-evenly;
   }
-  #page8 .elem{ 
+  #page8 .elem{
       height: 80vh;
       width: 95%;
       margin-top: 2vw;
