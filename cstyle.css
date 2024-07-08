@@ -137,7 +137,7 @@
     color: #1EAD4E;
     /* text-decoration:underline; */
   }
-  #page2 h3{
+  #page2>h3{
     font-size: 2.5vw;
     padding: 2vw 3vw;
     font-family: Gilroy-SemiBold;
@@ -402,7 +402,7 @@
     }
     #page2 .magnet{
         position: absolute;
-        top: -6%;
+        top: -5%;
         right: 2%;
         height: 13vh;
     }
