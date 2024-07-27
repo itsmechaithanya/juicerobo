@@ -19,7 +19,7 @@ ScrollTrigger.addEventListener("refresh", () => locoScroll.update());
 ScrollTrigger.refresh();
 
 }
-loco(); 
+loco();
 
 function swiper(){
   var swiper = new Swiper(".mySwiper", {
